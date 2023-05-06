@@ -1,0 +1,47 @@
+.containerNavHome{
+    width: 100vw;
+    height: 10vh;
+}
+
+.navHome{
+    width: 1100px;
+    height: 13vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loc-comprar{
+    display: flex;
+}
+
+.loc-comprar button{
+    border: 0;
+}
+
+.buttonLocNavbar{
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    border-radius: 6px;
+    background-color: #EBE5F9;
+    cursor: pointer;
+}
+
+.buttonLocNavbar p{
+    color: #4B2995;
+    margin-left: 4px;
+    font-size: 0.9rem;
+    font-family: 'Roboto';
+}
+
+.buttonBuyNavbar{
+    width: 38px;
+    height: 38px;
+    margin-left: 30px;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #F1E9C9;
+    cursor: pointer;
+}
