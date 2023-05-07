@@ -1,0 +1,73 @@
+.containerDescriptionCoffes{
+    width: 100vw;
+    height: 87vh;
+    background: url("../../../../assets/bg-home.png");
+}
+
+.descriptionCoffes{
+    max-width: 1100px;
+    height: 87vh;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-subtitle-description h3{
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 130%;
+    margin-bottom: 20px;
+    color: #272221;
+}
+
+.title-subtitle-description p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #403937;
+    font-stretch: 100;
+    margin-bottom: 60px;
+}
+
+.infos-coffes{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-coffee{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-coffee:nth-child(1), .info-coffee:nth-child(3){
+    width: 240px
+}
+
+.info-coffee p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--base-text);
+}
+
+.icon-info-coffee{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin-right: 6px;
+    background-color: #C47F17;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,6 +1,6 @@
 import './NavHome.css'
 
-import LogoNavbarHome from '../../../assets/logo-ignite-coffee.png'
+import LogoNavbarHome from '../../../../assets/logo-ignite-coffee.png'
 
 import { MapPin, ShoppingCart } from "@phosphor-icons/react";
 

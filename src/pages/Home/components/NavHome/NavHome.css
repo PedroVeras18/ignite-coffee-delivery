@@ -42,6 +42,6 @@
     margin-left: 30px;
     border-radius: 6px;
     padding: 5px;
-    background-color: #F1E9C9;
+    background-color: var(--brand-yellow-light);
     cursor: pointer;
 }
