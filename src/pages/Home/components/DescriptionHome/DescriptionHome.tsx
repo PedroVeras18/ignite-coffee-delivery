@@ -19,7 +19,7 @@ export default function DescriptionHome() {
                         {DESCRIPTION_COFFEE.map((descri) => (
                             <div className="info-coffee">
                                 <div className='icon-info-coffee' style={{ backgroundColor: descri.bg }}>
-                                    <descri.icon color='#FFF' size={20}/>
+                                    <descri.icon color='#FFF' size={15} weight="fill"/>
                                 </div>
                                 <p>{descri.title}</p>
                             </div>
