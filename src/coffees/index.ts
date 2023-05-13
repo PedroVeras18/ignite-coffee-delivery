@@ -13,7 +13,7 @@ import chocolateQuente from '../assets/coffees/chocolate-quente.png'
 import expressoAmericano from '../assets/coffees/expresso-americano.png'
 import expressoTradicional from '../assets/coffees/expresso-tradicional.png'
 
-const coffees = [
+const COFFEES = [
     {
       id: '1',
       title: 'Expresso Tradicional',
@@ -146,4 +146,4 @@ const coffees = [
     },
   ];
   
-  export default coffees;
+  export default COFFEES;

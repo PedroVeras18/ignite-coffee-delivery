@@ -1,0 +1,15 @@
+.listCoffee{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.titleListCoffee h3{
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: var(--base-title);
+}
