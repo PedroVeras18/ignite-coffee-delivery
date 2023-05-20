@@ -1,6 +1,10 @@
 .containerNavHome{
     width: 100vw;
-    height: 10vh;
+    height: 13vh;
+    position: fixed;
+    top: 0;
+    background-color: var(--base-background);
+    height: 13vh;
 }
 
 .navHome{

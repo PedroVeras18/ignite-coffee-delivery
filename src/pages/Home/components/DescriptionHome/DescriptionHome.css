@@ -1,6 +1,7 @@
 .containerDescriptionCoffes{
     width: 100vw;
     height: 87vh;
+    margin-top: 4rem;
     background: url("../../../../assets/bg-home.png");
 }
 

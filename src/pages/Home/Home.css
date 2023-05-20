@@ -13,3 +13,11 @@
     align-items: center;
     color: var(--base-title);
 }
+
+.listCardCoffee{
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem 0;
+}

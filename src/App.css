@@ -26,6 +26,8 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none; /* Para suporte ao Safari */
 }
 
 body {

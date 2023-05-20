@@ -1,0 +1,127 @@
+.containerCardCoffee{
+    width: 250px;
+    height: 290px;
+    border-radius: 6px 36px;
+    background-color: var(--base-card);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.imageCardCoffee{
+    margin-top: -1.25rem;
+}
+
+.tagsCardCoffee{
+    display: flex;
+    gap: 5px;
+}
+
+.tagsCardCoffee p{
+    background-color: var(--brand-yellow-light);
+    color: var(--brand-yellow-dark);
+    gap: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: .7rem;
+    line-height: 130%;
+
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.nameCardCoffee h3{
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--base-subtitle);
+    margin: 20px 0;
+}
+
+.descriptionCardCoffee p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--base-label);
+    text-align: center;
+}
+
+.priceCountCardCoffee{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+}
+
+.priceCardCoffee p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--base-text);
+}
+
+.priceCardCoffee p strong {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 130%;
+    margin-left: .2rem;
+}
+
+.countCardCoffee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 4px;
+    margin-right: 8px;
+    width: 90px;
+    height: 32px;
+
+    background: var(--base-button);
+    border-radius: 6px;
+}
+
+.countCardCoffee svg{
+    cursor: pointer;
+}
+
+.countBuyCardCoffee{
+    display: flex;
+}
+
+.countBuyCardCoffee p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--base-title);
+    margin: 0 10px;
+}
+
+.buyCardCoffee{
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: var(--brand-purple-dark);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
