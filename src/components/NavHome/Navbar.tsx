@@ -1,15 +1,30 @@
 import './Navbar.css'
+import { useNavigate } from "react-router-dom";
 
 import LogoNavbarHome from '../../assets/logo-ignite-coffee.png'
 
 import { MapPin, ShoppingCart } from "@phosphor-icons/react";
 
 export default function Navbar() {
+    const navigate = useNavigate()
+
+    function handleNavigateHome(){
+        navigate('/')
+    }
+
+    function handleNavigateOrder(){
+        navigate('/order')
+    }
+
     return (
         <div className="containerNavHome">
             <div className="navHome">
                 <div className="logoNavHome">
-                    <img src={LogoNavbarHome} alt="" />
+                    <img
+                        src={LogoNavbarHome}
+                        alt="Logotipo Coffee Delivery"
+                        onClick={handleNavigateHome}
+                    />
                 </div>
 
                 <div className="loc-comprar">
@@ -18,7 +33,12 @@ export default function Navbar() {
                         <p>Anápolis, GO</p>
                     </button>
                     <button className='buttonBuyNavbar'>
-                        <ShoppingCart size={24} color="#C47F17" weight="fill" />
+                        <ShoppingCart
+                            size={24}
+                            color="#C47F17"
+                            weight="fill"
+                            onClick={handleNavigateOrder}
+                        />
                     </button>
                 </div>
             </div>

@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.logoNavHome img{
+    cursor: pointer;
+}
+
 .loc-comprar{
     display: flex;
 }

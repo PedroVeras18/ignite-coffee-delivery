@@ -1,7 +1,10 @@
+import Navbar from "../../components/NavHome/Navbar"
+import './Order.css'
+
 export default function Order(){
     return(
         <div>
-            <h3>Order</h3>
+            <Navbar />
         </div>
     )
 }
