@@ -12,7 +12,7 @@ export default function CardCoffee({ data }: ICardCoffeeProps) {
     const [countQuantity, setCountQuantity] = useState<number>(0)
 
     function handleCount(action: 'inc' | 'dec') { 
-        if (action === 'inc') {
+        if (action === 'inc' && countQuantity < 9) {
             setCountQuantity((prev) => prev + 1)
         } else if (action === 'dec' && countQuantity > 0) {
             setCountQuantity((prev) => prev - 1)

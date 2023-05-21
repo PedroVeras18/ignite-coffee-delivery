@@ -1,10 +1,10 @@
-import './NavHome.css'
+import './Navbar.css'
 
-import LogoNavbarHome from '../../../../assets/logo-ignite-coffee.png'
+import LogoNavbarHome from '../../assets/logo-ignite-coffee.png'
 
 import { MapPin, ShoppingCart } from "@phosphor-icons/react";
 
-export default function NavHome() {
+export default function Navbar() {
     return (
         <div className="containerNavHome">
             <div className="navHome">

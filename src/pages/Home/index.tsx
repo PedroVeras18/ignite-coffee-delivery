@@ -2,14 +2,14 @@ import './Home.css'
 
 import COFFEES from '../../coffees';
 
-import NavHome from "./components/NavHome/NavHome";
+import Navbar from '../../components/NavHome/Navbar';
 import DescriptionHome from './components/DescriptionHome/DescriptionHome';
 import CardCoffee from '../../components/CardCoffee/CardCoffee';
 
 export default function Home() {
     return (
         <div className="containerHome">
-            <NavHome />
+            <Navbar />
 
             <DescriptionHome />
 
