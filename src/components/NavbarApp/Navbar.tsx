@@ -5,19 +5,29 @@ import LogoNavbarHome from '../../assets/logo-ignite-coffee.png'
 
 import { MapPin, ShoppingCart } from "@phosphor-icons/react";
 
-export default function Navbar() {
+type INavbarAppProps = {
+    positionNav?: string;
+}
+
+export default function Navbar({ positionNav = 'normal' }: INavbarAppProps) {
     const navigate = useNavigate()
 
-    function handleNavigateHome(){
+    function handleNavigateHome() {
         navigate('/')
     }
 
-    function handleNavigateOrder(){
+    function handleNavigateOrder() {
         navigate('/order')
     }
 
     return (
-        <div className="containerNavHome">
+        <div
+            className={
+                positionNav === 'fixed'
+                    ? 'containerNavHomePositionFixed'
+                    : 'containerNavHomePositionFixedNormal'
+            }
+        >
             <div className="navHome">
                 <div className="logoNavHome">
                     <img

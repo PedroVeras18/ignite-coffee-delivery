@@ -28,6 +28,7 @@
   box-sizing: border-box;
   user-select: none;
   -webkit-user-select: none; /* Para suporte ao Safari */
+  font-family: 'Roboto';
 }
 
 body {

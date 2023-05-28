@@ -1,0 +1,30 @@
+.Input input{
+    background: var(--base-button);
+    border: 1px solid #E6E5E5;
+    border-radius: 4px;
+    padding: 8px;
+    height: 42px;
+    gap: 4px;
+    margin-bottom: 20px;
+    margin-right: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--base-text);
+}
+
+.Input input::placeholder{
+    color: var(--base-label);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.Input input:focus{
+    border: 1px solid #C47F17;
+}

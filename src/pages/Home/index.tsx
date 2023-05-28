@@ -2,14 +2,16 @@ import './Home.css'
 
 import COFFEES from '../../coffees';
 
-import Navbar from '../../components/NavHome/Navbar';
+import Navbar from '../../components/NavbarApp/Navbar';
 import DescriptionHome from './components/DescriptionHome/DescriptionHome';
 import CardCoffee from '../../components/CardCoffee/CardCoffee';
 
 export default function Home() {
     return (
         <div className="containerHome">
-            <Navbar />
+            <Navbar
+                positionNav='fixed'
+            />
 
             <DescriptionHome />
 

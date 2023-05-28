@@ -7,3 +7,14 @@ export type ICoffee = {
     price: string,
     amount: number,
 }
+
+export interface OrderCoffee {
+    cep: string;
+    rua: string;
+    numero: string;
+    complemento: string;
+    bairro: string;
+    cidade: string;
+    uf: string;
+    paymentMethod: string;
+}
