@@ -1,4 +1,3 @@
-import React from 'react'
 import './Order.css'
 
 import Navbar from '../../components/NavbarApp/Navbar'
