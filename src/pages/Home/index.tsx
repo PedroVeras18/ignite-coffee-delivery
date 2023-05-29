@@ -4,7 +4,7 @@ import COFFEES from '../../coffees';
 
 import Navbar from '../../components/NavbarApp/Navbar';
 import DescriptionHome from './components/DescriptionHome/DescriptionHome';
-import CardCoffee from '../../components/CardCoffee/CardCoffee';
+import CardCatalog from '../../components/CardCoffee/CardCatalog';
 
 export default function Home() {
     return (
@@ -22,7 +22,7 @@ export default function Home() {
 
                 <div className="listCardCoffee">
                     {COFFEES.map((coffee) => (
-                        <CardCoffee
+                        <CardCatalog
                             key={coffee.id}
                             data={coffee}
                         />

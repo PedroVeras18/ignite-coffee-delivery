@@ -125,3 +125,59 @@
     justify-content: center;
     align-items: center;
 }
+
+.ContainerCardCart{
+    display: flex;
+    border-bottom: 1px solid #E6E5E5;
+    padding: 20px 0;
+}
+
+.DescriActionsCardCart{
+    margin: 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ActionsCardCart{
+    display: flex;
+}
+
+.removeCardCart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 4px;
+    margin-right: 8px;
+    height: 32px;
+
+    background: var(--base-button);
+    border-radius: 6px;
+}
+
+.removeCardCart p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #574F4D;
+}
+
+.PriceCardCart p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: var(--base-text);
+}

@@ -8,7 +8,7 @@ type ICardCoffeeProps = {
     data: ICoffee
 }
 
-export default function CardCoffee({ data }: ICardCoffeeProps) {
+export default function CardCatalog({ data }: ICardCoffeeProps) {
     const [countQuantity, setCountQuantity] = useState<number>(0)
 
     function handleCount(action: 'inc' | 'dec') { 

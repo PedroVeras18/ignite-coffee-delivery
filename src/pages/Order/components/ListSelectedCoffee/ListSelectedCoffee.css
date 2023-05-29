@@ -1,0 +1,44 @@
+.BoxListSelectedCoffee{
+    padding: 20px;
+    margin: 15px 0;
+    background-color: var(--base-card);
+    border-radius: 6px 44px;
+}
+
+.TotalItens, .Delivery, .TotalItensDelivery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.TotalItens p, .Delivery p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: var(--base-text);   
+}
+
+.TotalItensDelivery h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: var(--base-subtitle);
+}
+
+.TotalPriceListSelectedCoffee{
+    margin: 30px 0;
+}
